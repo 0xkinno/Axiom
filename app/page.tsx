@@ -172,10 +172,12 @@ export default function Home() {
       let reg = false;
 try { reg = await ct.isRegistered(addr); } catch {}
 setIsRegistered(reg);
-      if (reg) {
-        const a = await ct.getAgent(addr);
-        setAgentData(a);
-      }
+if (reg) {
+  try {
+    const a = await ct.getAgent(addr);
+    setAgentData(a);
+  } catch {}
+}
       let count = 0;
 try { count = Number(await ct.jobCount()); } catch {}
 await loadJobs(ct, count);
