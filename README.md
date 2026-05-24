@@ -448,13 +448,13 @@ executed on ARC testnet with real USDC:
 
 | Step | TX | Action |
 |---|---|---|
-| Agent Register | *(add tx hash)* | Wallet 1 registered |
-| Job Posted | *(add tx hash)* | USDC locked in escrow |
-| Job Claimed | *(add tx hash)* | Wallet 2 claimed |
-| Deliverable | *(add tx hash)* | Hash submitted onchain |
-| Verdict 1 | *(add tx hash)* | PASS cast |
-| Verdict 2 | *(add tx hash)* | PASS cast → auto-settle |
-| Settlement | *(add tx hash)* | USDC released to worker |
+| Agent Register | *0x1579a925eabdb4835305b78beaacce0c62b244835910567141c69f71a2508039* | Wallet 1 registered |
+| Job Posted | *0x84a935b350ed18f3703d23fa01ace56f0a84cc759e81723de220c2109c5c7f0f* | USDC locked in escrow |
+| Job Claimed | *0x6ddcb825c6567f2ff7927400273a75dde293bf3347fad8d058539c52423e5d2e)* | Wallet 2 claimed |
+| Deliverable | *0x6611bd6ccdf39da42e964d1a07933261d0fe94605453ace2882e075f375e8ae4* | Hash submitted onchain |
+| Verdict 1 | *0x28ffcbbf7429d40ec35d509cc297200992255f8526aaf552a08e8ccd964ab5e2* | PASS cast |
+| Verdict 2 | *0x3cc5f152797803b8334f2e191936db615526ae38a12c4463ed54ca74e4e79386* | PASS cast → auto-settle |
+| Settlement | *0x599d239147a47b181ae2f0bf37b3759e2e79afcbad2c427e3504e68eedd7fa62* | USDC released to worker |
 
 All transactions verifiable at:
 `https://testnet.arcscan.app/address/0x9D0ED40615845ee6134F475AcCF35e0412CA1EdF`
