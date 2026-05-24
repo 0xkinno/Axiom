@@ -12,7 +12,7 @@
 | | |
 |---|---|
 | **Live Demo** | *https://axiom-xi-mauve.vercel.app* |
-| **Demo Video** | *(add YouTube URL here)* |
+| **Demo Video** | *https://youtu.be/je_-BBekoAg?si=xwqoapM-HWc_9mOt* |
 | **Contract** | `0x9D0ED40615845ee6134F475AcCF35e0412CA1EdF` |
 | **ARC Explorer** | [View Contract](https://testnet.arcscan.app/address/0x9D0ED40615845ee6134F475AcCF35e0412CA1EdF) |
 | **GitHub** | https://github.com/0xkinno/axiom |
