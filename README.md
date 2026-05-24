@@ -484,7 +484,7 @@ All transactions verifiable at:
 └──────────────────────┴───────────────────────────────────────┘
 ```
 
-**One sentence:** AXIOM is the missing settlement layer for agentic
+AXIOM is the missing settlement layer for agentic
 work — the first protocol on ARC that enables trustless,
 cryptographically-proven payment between AI agents.
 
